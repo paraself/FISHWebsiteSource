@@ -1,0 +1,205 @@
+html,body{
+	height: 100%;
+	Font-size:62.5%;
+}
+
+p {
+	margin:13px;
+	color:#EEEEEE;
+	font-size:2.4em;
+	font-family: "Arial";
+	font-style: normal;
+	text-align: left;
+}
+
+#AllElement{
+	margin: 0 111px 0 111px;
+	overflow:auto;
+	min-height: 80%;
+	padding-bottom: 80px; /* must be same height as the footer */
+}
+
+#Logo{
+	width:80px;
+	height:175px;
+	margin:0;
+	padding:0;
+}
+
+#LocaleSwitchTab{
+	margin:2px 0px 0px 0px;
+	height:26px;
+}
+
+#LocaleSwitchTab #EN{
+	margin: 0px 1px 0 0;
+	float:left;
+}
+#LocaleSwitchTab #EN:hover{
+	opacity:0.4;
+	/* For IE8 and earlier*/
+	filter:alpha(opacity=40);
+}
+#LocaleSwitchTab #CN{
+	margin: 0px 0px 0px 1px;
+}
+#LocaleSwitchTab #CN:hover{
+	opacity:0.4;
+	filter:alpha(opacity=40);
+}
+
+.MenuContent{
+	margin:12px 0 0 0;
+	overflow: hidden;
+}
+
+#MenuContentCN{
+	display:none;
+}
+
+.Menu{
+	margin:0px 6px 0 0;
+	float:left;
+	height:176px;
+}
+
+.Menu a{
+	margin:0px 0 2px 0;
+	display:block;
+	width:80px;
+	height:26px;
+}
+
+.Menu a:hover{
+	opacity:0.4;
+	filter:alpha(opacity=60);
+
+	/*Glow*/
+	-webkit-box-shadow: 0px 0px 20px rgba(255,255,255,0.3);
+	-moz-box-shadow: 0px 0px 20px rgba(255,255,255,0.3);
+	box-shadow: 0px 0px 20px rgba(255,255,255,0.3);
+}
+
+#trailorlink{
+	margin-top:12px;
+}
+#cn_trailorlink{
+	margin-top:12px;
+}
+
+.ContentBox{
+	width:240px;
+	height:310px;
+	background-image:url(../img/1px_hover.png);
+	display:none;
+	padding:1px;
+	border:0px solid grey;
+	-webkit-margin-start:86px;
+	-moz-margin-start:86px;
+	overflow:none;
+}
+
+#MenuContentCN p{
+	margin: 13px 7px 13px 7px;
+}
+.ContactBox{
+	margin: 0px 0px 0px 7px;
+}
+
+.ContactBox p{
+	margin:7px 7px 7px 7px;
+	font-size:2.3em;
+}
+#CN_ContactContent p{
+	margin:7px 7px 8px 7px;
+	font-size:2.27em;
+}
+
+.EmailLinkSet .email{
+	display:block;
+	height:20px;
+	margin:0 0 5px 0;
+	padding:0;
+	color:#EEEEEE;
+	font-size:1.1em;
+	font-family: "Arial";
+	text-decoration:none;
+}
+
+.EmailLinkSet a:hover{
+	opacity:0.6;
+	filter:alpha(opacity=60);
+}
+
+.EmailLinkSet p{
+	display:block;
+	font-size:2.2em;
+	font-family: "Arial";
+}
+
+.DownloadSet a{
+	display:block;
+	height:20px;
+	margin:0 0 0 1em;
+	padding:0;
+	color:#EEEEEE;
+	font-size:2.3em;
+	font-family: "Arial";
+	text-decoration:none;
+}
+
+.DownloadSet a:hover{
+	opacity:0.6;
+	filter:alpha(opacity=60);
+}
+
+#CN_DownloadSet{
+	margin:0 0 0 1em;
+}
+
+.ShareLinkSet{
+	margin:0 0px 0 111px;
+	width:90%;
+}
+
+.ShareLinkSet a{
+	display:block;
+	width:80px;
+	height:26px;
+	margin: 0 0 2px 0;
+}
+
+.ShareLinkSet a:hover{
+	opacity:0.4;
+	filter:alpha(opacity=60);
+}
+
+#ShareLinkFooter {
+	position: relative;
+	float:left;
+	margin-top: -100px;
+	height: 100px;
+}
+
+#IGFWinnerLogo {
+	position: relative;
+	float:right;
+	margin-top: -90px;
+	margin-right:50px;
+	height: 140px;
+	zoom: 1;
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF)" !important; 
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF) !important;
+	filter:alpha(opacity=60);
+	opacity: 0.6;
+}
+
+#slidecaption {
+	position:relative;
+	float:right;
+	height:30px;
+	margin-top: -37px;
+	-webkit-margin-before:-30px;
+	-moz-margin-before:-30px;
+	padding:0 0 -10px 0;	
+}
