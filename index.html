@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+				<title>FISH - An Atmospheric Adventure Game</title>
+
+				<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+				<link rel="shortcut icon" href="http://fishartgame.com/favicon.ico" />
+
+				<link rel="stylesheet" href="css/supersized.css" type="text/css" media="screen" />
+				<link rel="stylesheet" href="theme/supersized.shutter.css" type="text/css" media="screen" />
+				<link rel="stylesheet" href="css/homepage.css" type="text/css" />
+				<link rel="stylesheet" type="text/css" href="css/shadowbox.css">
+				
+				<script type="text/javascript" src="js/jquery.min.js"></script>
+				<script type="text/javascript" src="js/jquery.easing.min.js"></script>
+				<script type="text/javascript" src="js/supersized.3.2.7.min.js"></script>
+				<script type="text/javascript" src="theme/supersized.shutter.min.js"></script>
+				<script type="text/javascript" src="js/homepage.js"></script>
+				<script type="text/javascript" src="js/shadowbox.js"></script>
+				
+				<script>
+					(function(d){
+						var iframe = d.body.appendChild(d.createElement('iframe')),
+						doc = iframe.contentWindow.document;
+						iframe.style.cssText = "width:100%;height:310px;scrolling:no;frameborder:no";
+						
+						doc.open().write('<body onload="var d = document;d.getElementsByTagName(\'head\')[0].appendChild(d.createElement(\'script\')).src=\'https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Fplaylists%2F7217403&amp;color=377290&amp;auto_play=false&amp;show_artwork=true'">');
+						doc.close(); //iframe onload event happens
+
+					})(document);
+				</script>
+			
+				<script type="text/javascript">
+					Shadowbox.init();
+				</script>				
+		</head>
+		<body>
+			<!--Arrow Navigation-->
+			<a id="prevslide" class="load-item"></a>
+			<a id="nextslide" class="load-item"></a>
+			
+			<div id="AllElement">
+				<div id="Logo">
+					<img src="pic/img/logo_hover.png"  />
+				</div>
+			
+				<div id="LocaleSwitchTab">
+					<a href="javascript:void(0);" onclick="switchTab('EN')"><img id="EN" src="pic/img/language_EN_hover.png"  /></a>
+					<a href="javascript:void(0);" onclick="switchTab('CN')"><img id="CN" src="pic/img/language_CN_hover.png" /></a>
+				</div>
+
+				<div id="MenuContentEN" class="MenuContent">
+					<div class="Menu">
+						<a id="introlink" href="javascript:void(0)"  onclick="showContent('Intro')">
+							<img src="pic/img/intro_hover.png" />
+						</a>
+						<a id="bloglink" href="http://fishartgame.tumblr.com"  onclick="showContent('CN_Blog')" target="_blank">
+							<img src="pic/img/blog_hover.png" />
+						</a>
+						<a id="downloadlink" href="javascript:void(0)"  onclick="showContent('Download')">
+							<img src="pic/img/download_hover.png" />
+						</a>
+						<a id="contactlink" href="javascript:void(0)"  onclick="showContent('Contact')">
+							<img src="pic/img/contact_hover.png" />
+						</a>
+						<a id="trailorlink" href="http://www.youtube.com/embed/videoseries?list=PL9hkvt-QImxYA8EoW4HsudDI7QkOIypF0"
+							rel="shadowbox;height=480;width=854">
+							<img src="pic/img/trailer_idle.png" />
+						</a>	
+						<a id="soundlink" href="javascript:void(0)"  onclick="showContent('Sound')">
+							<img src="pic/img/sound_idle.png" />
+						</a>
+					</div>
+					<div id="IntroContent" class="ContentBox">
+						<p>Fish is a 2D top-down view exploration game. The Players become a small fish born in a swamp, trying to find freedom throughout its life. The inspiration comes from my own introspection on life. In modern society we are always bound to certain things, which makes us blind to the true freedom inside our hearts. Fish wants to get rid of these orientations and brings a sense of freedom to its players.</p>
+					</div>
+					<div id="BlogContent" class="ContentBox">
+						<div class="EmailLinkSet">
+								<br />
+								<p /><i><b>
+									<a href="http://fishartgame.tumblr.com" target="_blank">fishartgame.tumblr.com</a>
+								</b></i><p />
+						</div>
+					</div>
+					<div id="DownloadContent" class="ContentBox">
+						<p />Currently Fish is still in active development and we regret to tell you there is
+						no stable release version for trying out yet. Please hold patience till its publish.
+						<p />
+						If you like FISH, here we have game introduction and some wallpapers for you to download. Hope you
+						like them :)
+						<p />
+						<div class="DownloadSet">
+							<a href="./4u/GameDescription.pdf" target="_self">Game Introduction Doc</a>
+							<br />
+							<a href="./4u/Wallpapers&Screenshot.zip" target="_self">Wallpaper</a>
+						</div>
+					</div>
+					<div id="ContactContent" class="ContentBox">
+						<p/>
+						<div class="ContactBox">
+							<p />Follow us if you are interested in Fish and our works :)
+							<p /> or you can just send us the email
+							<div id="EmailList" class="EmailLinkSet">
+							<p><b>Offical Email</b><script type="text/javascript"><!--
+var vhhwglf = ['t','o','g',' ','h','a','h','l','@','i','c','r','i','i','g','t','"','m','<','l','h','g','s','s','m','o','l','a','l','m','m','o','s','m',':','i','.','m','"','a','e','r','>','i','a','>','l','a','r','f','@','f','a','g','t','a','s','e','=','a','<','=','c','a','e','"','i',' ','e','f','a','/','m','.','"','a','m','c'];var dhrwpzx = [13,35,23,2,3,1,19,32,64,17,71,58,49,11,65,22,37,47,0,12,56,28,18,43,73,14,69,10,50,66,29,72,42,36,15,54,70,9,45,61,5,4,77,31,67,52,40,76,21,16,27,6,24,60,59,30,55,46,7,48,74,44,39,57,63,51,68,38,26,53,41,75,25,33,8,20,62,34];var rnhrvgo= new Array();for(var i=0;i<dhrwpzx.length;i++){rnhrvgo[dhrwpzx[i]] = vhhwglf[i]; }for(var i=0;i<rnhrvgo.length;i++){document.write(rnhrvgo[i]);}
+// --></script>
+<noscript>Please enable Javascript to see the email address</noscript><p />
+								<p><b> Art & Design </b> <br />Yi Wang <script type="text/javascript"><!--
+var vgkqqnt = ['e','a','o','i','i','l','/','p','"','"','r','e','i','o','a','@','l','a','s',':','f','@','<','=','<','m','a','t','.','m','s','l','a','a','g','.','>','r',' ','>','m','l','c','e','c','a','l','c','p','l','a','e','o','s','f','"','=','a','g','l','m','m','a','f','a','m','s','i','h','r',' ','"'];var ybcnvac = [55,27,32,46,62,37,69,16,34,8,18,21,11,14,38,24,56,1,20,15,57,58,68,7,0,26,53,13,30,9,54,29,10,51,59,64,49,4,2,71,33,63,31,5,36,61,22,65,50,12,17,43,66,40,23,48,41,19,25,47,44,67,70,6,45,60,39,28,3,52,35,42];var mtsspoo= new Array();for(var i=0;i<ybcnvac.length;i++){mtsspoo[ybcnvac[i]] = vgkqqnt[i]; }for(var i=0;i<mtsspoo.length;i++){document.write(mtsspoo[i]);}
+// --></script>
+<noscript>Please enable Javascript to see the email address</noscript>
+								</p>
+								<p><b> Music </b><br /> Adon <script type="text/javascript"><!--
+var qadlsiw = [' ','"','o',':','a','2','>','0','.','l','/','i','m','s','l','r','i','n','o','=','"','e','@','8','h','=','.','"','l','c','i','l','s','o','@','n','c','2','a','m','l','g','<','o','8','g','a','m','a',' ','a','d','m','8','e','a','c','f','m','t','o','<','d','8','>','a','i','a','"','a','m','0'];var escmewv = [35,48,66,15,27,56,71,20,30,63,69,46,26,39,37,4,62,53,52,7,8,5,24,23,3,41,64,34,47,65,11,12,40,18,58,19,31,22,61,60,29,25,0,14,55,59,10,67,45,2,50,17,33,57,43,38,36,6,9,13,32,68,51,21,49,1,28,16,42,70,44,54];var ejvfomv= new Array();for(var i=0;i<escmewv.length;i++){ejvfomv[escmewv[i]] = qadlsiw[i]; }for(var i=0;i<ejvfomv.length;i++){document.write(ejvfomv[i]);}
+// --></script>
+<noscript>Please enable Javascript to see the email address</noscript></p>
+								<p><b> Program </b><br />Shuai Bao <script type="text/javascript"><!--
+var xxxpzcc = ['a','/','e','l','m','g','o','l','a','o','r',' ','p','o','y','s','.','a','s','>','i','b','.','@','m',' ','m','i','c','"','o','p','=','c','"','@','c','m','l','a','<',':','m','e','o','=','i','a','d','o','t','a','m','i','b','l','<','"','a','l','r','h','c','a','l','l','c','o','"','.','a','y','g','>','d','.','a','l','r','e','f','e','l','a'];var wvnvgdj = [1,81,24,61,79,31,57,21,44,29,65,2,20,69,23,45,76,62,46,55,52,27,36,30,39,41,9,34,42,48,78,60,47,37,54,70,16,32,53,82,80,15,72,49,14,7,74,51,19,17,13,22,50,11,67,18,0,8,28,43,4,3,56,73,58,12,77,38,40,66,33,63,71,83,59,26,68,75,25,64,6,5,35,10];var lqcqwji= new Array();for(var i=0;i<wvnvgdj.length;i++){lqcqwji[wvnvgdj[i]] = xxxpzcc[i]; }for(var i=0;i<lqcqwji.length;i++){document.write(lqcqwji[i]);}
+// --></script>
+<noscript>Please enable Javascript to see the email address</noscript> </p>
+
+							</div>							
+						</div>
+					</div>
+
+					<div id="SoundContent" class="ContentBox">
+						<iframe width="100%" height="310" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Fplaylists%2F7217403&amp;color=377290&amp;auto_play=false&amp;show_artwork=true"></iframe>
+					</div>
+				</div>
+				
+				<!-- CHINESE MENU -->
+				<div id="MenuContentCN" class="MenuContent">
+					<div class="Menu">
+						<a id="cn_introlink" href="javascript:void(0);reture false;"  onclick="showContent('CN_Intro')">
+							<img src="pic/img/intro_hover_CN.png" />
+						</a>
+						<a id="cn_bloglink" href="http://fishartgame.tumblr.com"  onclick="showContent('Blog')" target="_blank">
+							<img src="pic/img/blog_hover_CN.png" />
+						</a>
+						<a id="cn_downloadlink" href="javascript:void(0)"  onclick="showContent('CN_Download')">
+							<img src="pic/img/download_hover_CN.png" />
+						</a>
+						<a id="cn_contactlink" href="javascript:void(0)"  onclick="showContent('CN_Contact')">
+							<img src="pic/img/contact_hover_CN.png" />
+						</a>
+						<a id="cn_trailorlink" href="http://player.youku.com/embed/XNTc5NDYxMjk2"
+							rel="shadowbox;height=480;width=854">
+							<img src="pic/img/trailer_CN_idle.png" />
+						</a>	
+						<a id="cn_soundlink" href="javascript:void(0)"  onclick="showContent('CN_Sound')">
+							<img src="pic/img/sound_CN_idle.png" />
+						</a>
+					</div>					
+					<div id="CN_IntroContent" class="ContentBox">
+						<p  /> 《鱼》是一款2D平面探索类型游戏。玩家扮演一只出生在沼泽中的小鱼，通过不管的探索发现周围的环境，最终游过溪流，穿越江河，寻找自己生命中终极的自由。《鱼》的核心主题是自由。创作理念来自作者生活的真实感悟。在现代生活中人们总是被各种事情限制住内心的自由，局限住自己的视野。《鱼》希望抛开传统游戏以金钱，装备等功利为导向的设计，让玩家以鱼的视角去体验一种心灵上的自由，探索游戏作为交互艺术的其他可能性。
+					
+					</div>
+					<div id="CN_BlogContent" class="ContentBox">
+						<div class="EmailLinkSet">
+								<br />
+								<p /><i><b>
+									<a href="http://fishartgame.tumblr.com" target="_blank">fishartgame.tumblr.com</a>
+								</b></i><p />
+						</div>
+					</div>
+					<div id="CN_DownloadContent" class="ContentBox">
+						<div id="CN_DownloadSet">
+							<p> 魚 目前還在持續開發中, 我們期待加入更多场景和元素之後給各位帶來更豐富的遊戲體驗.
+									關注最新的消息可以在"聯系"中Follow我們的社交網絡帳號.  敬請各位抱有耐心 :D
+									您可下載以下遊戲介紹與遊戲部份畫面.
+							</p>
+						</div>
+						<div class="DownloadSet">
+							<a href="./4u/GameDescription.pdf" target="_self">遊戲介紹</a>
+							<br />
+							<a href="./4u/Wallpapers&Screenshot.zip" target="_self">遊戲畫面</a>
+						</div>						
+					</div>
+					<div id="CN_ContactContent" class="ContentBox">
+						<p/>
+						<div class="ContactBox">
+							<p>
+								如果你對 魚 和我們的其他作品抱有興趣, 可以通過Email和以下社交網絡來找到我們. 期待各位的反饋讓 魚 做的更好! :)
+							</p>
+							<div id="EmailListCN" class="EmailLinkSet">
+								<p>
+								<b>Offical Email</b>
+									<script type="text/javascript"><!--
+	var vhhwglf = ['t','o','g',' ','h','a','h','l','@','i','c','r','i','i','g','t','"','m','<','l','h','g','s','s','m','o','l','a','l','m','m','o','s','m',':','i','.','m','"','a','e','r','>','i','a','>','l','a','r','f','@','f','a','g','t','a','s','e','=','a','<','=','c','a','e','"','i',' ','e','f','a','/','m','.','"','a','m','c'];var dhrwpzx = [13,35,23,2,3,1,19,32,64,17,71,58,49,11,65,22,37,47,0,12,56,28,18,43,73,14,69,10,50,66,29,72,42,36,15,54,70,9,45,61,5,4,77,31,67,52,40,76,21,16,27,6,24,60,59,30,55,46,7,48,74,44,39,57,63,51,68,38,26,53,41,75,25,33,8,20,62,34];var rnhrvgo= new Array();for(var i=0;i<dhrwpzx.length;i++){rnhrvgo[dhrwpzx[i]] = vhhwglf[i]; }for(var i=0;i<rnhrvgo.length;i++){document.write(rnhrvgo[i]);}
+	// -->
+									</script>
+									<noscript>Please enable Javascript to see the email address</noscript>
+								<b>艺术设计</b><br>王熠
+									<script type="text/javascript"><!--
+	var vgkqqnt = ['e','a','o','i','i','l','/','p','"','"','r','e','i','o','a','@','l','a','s',':','f','@','<','=','<','m','a','t','.','m','s','l','a','a','g','.','>','r',' ','>','m','l','c','e','c','a','l','c','p','l','a','e','o','s','f','"','=','a','g','l','m','m','a','f','a','m','s','i','h','r',' ','"'];var ybcnvac = [55,27,32,46,62,37,69,16,34,8,18,21,11,14,38,24,56,1,20,15,57,58,68,7,0,26,53,13,30,9,54,29,10,51,59,64,49,4,2,71,33,63,31,5,36,61,22,65,50,12,17,43,66,40,23,48,41,19,25,47,44,67,70,6,45,60,39,28,3,52,35,42];var mtsspoo= new Array();for(var i=0;i<ybcnvac.length;i++){mtsspoo[ybcnvac[i]] = vgkqqnt[i]; }for(var i=0;i<mtsspoo.length;i++){document.write(mtsspoo[i]);}
+	// -->
+									</script>
+									<noscript>Please enable Javascript to see the email address</noscript>							
+								<b>游戏音乐</b><br>鄭為中
+									<script type="text/javascript"><!--
+	var qadlsiw = [' ','"','o',':','a','2','>','0','.','l','/','i','m','s','l','r','i','n','o','=','"','e','@','8','h','=','.','"','l','c','i','l','s','o','@','n','c','2','a','m','l','g','<','o','8','g','a','m','a',' ','a','d','m','8','e','a','c','f','m','t','o','<','d','8','>','a','i','a','"','a','m','0'];var escmewv = [35,48,66,15,27,56,71,20,30,63,69,46,26,39,37,4,62,53,52,7,8,5,24,23,3,41,64,34,47,65,11,12,40,18,58,19,31,22,61,60,29,25,0,14,55,59,10,67,45,2,50,17,33,57,43,38,36,6,9,13,32,68,51,21,49,1,28,16,42,70,44,54];var ejvfomv= new Array();for(var i=0;i<escmewv.length;i++){ejvfomv[escmewv[i]] = qadlsiw[i]; }for(var i=0;i<ejvfomv.length;i++){document.write(ejvfomv[i]);}
+	// -->
+									</script>
+									<noscript>Please enable Javascript to see the email address</noscript>
+								<b>游戏程序</b><br>鲍帅
+									<script type="text/javascript"><!--
+	var xxxpzcc = ['a','/','e','l','m','g','o','l','a','o','r',' ','p','o','y','s','.','a','s','>','i','b','.','@','m',' ','m','i','c','"','o','p','=','c','"','@','c','m','l','a','<',':','m','e','o','=','i','a','d','o','t','a','m','i','b','l','<','"','a','l','r','h','c','a','l','l','c','o','"','.','a','y','g','>','d','.','a','l','r','e','f','e','l','a'];var wvnvgdj = [1,81,24,61,79,31,57,21,44,29,65,2,20,69,23,45,76,62,46,55,52,27,36,30,39,41,9,34,42,48,78,60,47,37,54,70,16,32,53,82,80,15,72,49,14,7,74,51,19,17,13,22,50,11,67,18,0,8,28,43,4,3,56,73,58,12,77,38,40,66,33,63,71,83,59,26,68,75,25,64,6,5,35,10];var lqcqwji= new Array();for(var i=0;i<wvnvgdj.length;i++){lqcqwji[wvnvgdj[i]] = xxxpzcc[i]; }for(var i=0;i<lqcqwji.length;i++){document.write(lqcqwji[i]);}// -->
+									</script>
+									<noscript>Please enable Javascript to see the email address</noscript>
+								</p>
+							</div>
+						</div>
+					</div>
+					<!--div id="CN_TrailorContent" class="ContentBox">
+						<a href="http://player.youku.com/player.php/sid/XNTc5NDYxMjk2/v.swf"
+							rel="shadowbox[FISHTRAILORCN];height=480;width=854" >
+							<img style="margin-left:2px" src="pic/thumb/trailer_thumbnail1.jpg" />
+						</a>	
+					</div-->
+					<div id="CN_SoundContent" class="ContentBox">
+						<iframe width="100%" height="310" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Fplaylists%2F7217403&amp;color=377290&amp;auto_play=false&amp;show_artwork=true"></iframe>
+					</div>
+				</div>
+			</div>
+			
+			<div class="ShareLinkSet">
+				<div id="ShareLinkFooter">
+					<a href="https://madmimi.com/signups/84656/iframe" rel="shadowbox;height=302;width=402">
+						<img src="pic/img/Subscribe_idle.png" /></a>
+					<a href="http://weibo.com/fishartgame" target="_blank">
+						<img src="pic/img/Social_Weibo_hover.png" /></a>
+					<a href="http://zhan.renren.com/fishartgame" target="_blank">
+						<img src="pic/img/Social_RenRen_hover.png" /></a>
+					<a href="https://twitter.com/fishartgame" target="_blank">
+						<img src="pic/img/Social_Twitter_hover.png" /></a>
+					<a href="http://www.facebook.com/fishartgame" target="_blank">
+						<img src="pic/img/Social_Facebook_hover.png" /></a>
+					<a href="https://goo.gl/AankS" target="_blank">
+						<img src="pic/img/Social_GooglePlus_hover.png" /></a>
+				</div>
+				<div id="slidecaption"></div>
+				<div id="IGFWinnerLogo"><img src="pic/img/IGF_StuWinnerLogo.png" /></div>
+			</div>
+
+			<!--Google Analytics-->
+			<script>
+  				(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ 				 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  				})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  				ga(‘set’, ‘&uid’, {{USER_ID}}); // 使用已登录的 user_id 来设置用户 ID。
+  				ga('create', 'UA-35360065-1', 'auto');
+  				ga('require', 'linkid', 'linkid.js');
+  				ga('send', 'pageview');
+
+			</script>
+			
+		</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
