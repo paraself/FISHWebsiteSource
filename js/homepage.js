@@ -44,16 +44,16 @@ $(function(){
 	$('div.ContentBox').click(function(event) {
 		event.stopPropagation();
 	});
+
 	$(document).click(function(event) {
-		$('div.ContentBox').fadeOut(1000);
+		$('div.ContentBox').fadeOut();
+		$('div.ContentBoxFeedback').fadeOut();
 	});
 
 	$('div.ContentBoxFeedback').click(function(event) {
 		event.stopPropagation();
 	});
-	$(document).click(function(event) {
-		$('div.ContentBoxFeedback').fadeOut(1000);
-	});
+	
 
 });
 
@@ -75,12 +75,14 @@ $(function(){
 	if($('#'+index+'Content').css('display') == 'none' | $('#'+index+'Content').css('display') == ''){
 		$('#'+index+'Content').fadeIn(500);
 		$('.ContentBox').not('#'+index+'Content').css('display','none');
+		$('.ContentBoxFeedback').not('#'+index+'Content').css('display','none');
 	}else{
 		$('#'+index+'Content').fadeOut(1000);
 	}
 });
 }
 
+//make disqus multi-lingua
 var disqus_config; 
 var userLang = navigator.language ;
  //alert ("The language is: " + userLang);
