@@ -92,6 +92,10 @@ p {
 	margin-top:12px;
 }
 
+#cn_feedbacklink{
+	margin-top:12px;
+}
+
 .ContentBox{
 	width:240px;
 	height:310px;
@@ -123,6 +127,7 @@ p {
 	margin:7px 7px 7px 7px;
 	font-size:2.3em;
 }
+
 #CN_ContactContent p{
 	margin:7px 7px 8px 7px;
 	font-size:2.27em;
@@ -231,7 +236,7 @@ p {
 	width: 400px;
 	top: 0px;
 	bottom: 7px;
-	background-color: rgba(0, 0, 0, 0.6);
+	background-color: rgba(10, 10, 10, 0.8);
 }
 
 #disqus_thread {

@@ -7,7 +7,7 @@
 		// Components							
 		slide_links				:	'blank',	// Individual links for each slide (Options: false, 'num', 'name', 'blank')
 		slides 					:  	[			// Slideshow Images
-		{image : 'pic/slide/V0.2/This_Night.jpg'},
+		//{image : 'pic/slide/V0.2/This_Night.jpg'},
 		{image : 'pic/slide/V0.2/This_Dawn.jpg'},
 		{image : 'pic/slide/V0.2/00000569.jpg'},
 		{image : 'pic/slide/V0.2/00000321.jpg'},
