@@ -89,7 +89,7 @@ var userLang = navigator.language ;
  }
 
  if (userLang == "zh-CN") {
- 	disqus_config = function () { this.language = "cn"; };
+ 	disqus_config = function () { this.language = "zh"; };
  }
 
  
