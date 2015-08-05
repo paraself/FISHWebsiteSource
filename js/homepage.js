@@ -81,7 +81,9 @@ $(function(){
 });
 }
 
-var disqus_config = function () { this.language = "ru"; };
+//var disqus_config = function () { this.language = "ru"; };
+var userLang = navigator.language || navigator.userLanguage; 
+ alert ("The language is: " + userLang);
 
 
 
