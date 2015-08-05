@@ -81,9 +81,18 @@ $(function(){
 });
 }
 
-//var disqus_config = function () { this.language = "ru"; };
-var userLang = navigator.language || navigator.userLanguage; 
- alert ("The language is: " + userLang);
+var disqus_config; 
+var userLang = navigator.language ;
+ //alert ("The language is: " + userLang);
+ if (userLang == "en-US") {
+ 	disqus_config = function () { this.language = "en"; };
+ }
+
+ if (userLang == "zh-CN") {
+ 	disqus_config = function () { this.language = "cn"; };
+ }
+
+ 
 
 
 
