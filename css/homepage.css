@@ -175,10 +175,12 @@ p {
 }
 
 #ShareLinkFooter {
-	position: relative;
+	/*position: relative;
 	float:left;
 	margin-top: -100px;
-	height: 100px;
+	height: 100px;*/
+	position: fixed;
+	bottom: 5px;
 }
 
 #IGFWinnerLogo {
@@ -202,6 +204,14 @@ p {
 	-webkit-margin-before:-30px;
 	-moz-margin-before:-30px;
 	padding:0 0 -10px 0;	
+}
+
+#disqus {
+	position: fixed;
+	left: 203px;
+	width: 400px;
+	top: 5px;
+	bottom: 5px;
 }
 
 
