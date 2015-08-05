@@ -47,6 +47,14 @@ $(function(){
 	$(document).click(function(event) {
 		$('div.ContentBox').fadeOut(1000);
 	});
+
+	$('div.ContentBoxFeedback').click(function(event) {
+		event.stopPropagation();
+	});
+	$(document).click(function(event) {
+		$('div.ContentBoxFeedback').fadeOut(1000);
+	});
+
 });
 
 

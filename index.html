@@ -19,10 +19,10 @@
 				<script type="text/javascript" src="js/homepage.js"></script>
 				<script type="text/javascript" src="js/shadowbox.js"></script>
 				
+				<!--Sound Cloud-->
 				<script>
 					(function(d){
-						var iframe = d.body.appendChild(d.createElement('iframe')),
-						doc = iframe.contentWindow.document;
+						var iframe = d.body.appendChild(d.createElement('iframe')), doc = iframe.contentWindow.document;
 						iframe.style.cssText = "width:100%;height:310px;scrolling:no;frameborder:no";
 						
 						doc.open().write('<body onload="var d = document;d.getElementsByTagName(\'head\')[0].appendChild(d.createElement(\'script\')).src=\'https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Fplaylists%2F7217403&amp;color=377290&amp;auto_play=false&amp;show_artwork=true'">');
@@ -31,11 +31,12 @@
 					})(document);
 				</script>
 			
+				<!--Shadowbox-->
 				<script type="text/javascript">
 					Shadowbox.init();
 				</script>				
 		</head>
-		<body>
+		<body> 
 			<!--Arrow Navigation-->
 			<a id="prevslide" class="load-item"></a>
 			<a id="nextslide" class="load-item"></a>
@@ -71,6 +72,11 @@
 						<a id="soundlink" href="javascript:void(0)"  onclick="showContent('Sound')">
 							<img src="pic/img/sound_idle.png" />
 						</a>
+
+						<a id="feedbacklink" href="javascript:void(0)"  onclick="showContent('Feedback')">
+							<img src="pic/img/sound_idle.png" />
+						</a>
+
 					</div>
 					<div id="IntroContent" class="ContentBox">
 						<p>Fish is a 2D top-down view exploration game. The Players become a small fish born in a swamp, trying to find freedom throughout its life. The inspiration comes from my own introspection on life. In modern society we are always bound to certain things, which makes us blind to the true freedom inside our hearts. Fish wants to get rid of these orientations and brings a sense of freedom to its players.</p>
@@ -124,6 +130,26 @@ var qadlsiw = [' ','"','o',':','a','2','>','0','.','l','/','i','m','s','l','r','
 					<div id="SoundContent" class="ContentBox">
 						<iframe width="100%" height="310" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Fplaylists%2F7217403&amp;color=377290&amp;auto_play=false&amp;show_artwork=true"></iframe>
 					</div>
+
+					<div id="FeedbackContent" class = "ContenBoxFeedback">
+						<!--Disqus-->
+						<div id = "disqus">
+							<div id="disqus_thread"></div>
+							<script type="text/javascript">
+						   		 /* * * CONFIGURATION VARIABLES * * */
+						    	var disqus_shortname = 'fishartgame';
+						    
+						   		 /* * * DON'T EDIT BELOW THIS LINE * * */
+						    	(function() {
+						        	var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+						        	dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+						        	(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+						    	})();
+							</script>
+							<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+						</div>
+					</div>
+
 				</div>
 				
 				<!-- CHINESE MENU -->
@@ -251,23 +277,7 @@ var qadlsiw = [' ','"','o',':','a','2','>','0','.','l','/','i','m','s','l','r','
 
 			</script>
 
-			<!--Disqus-->
 			
-			<div id = "disqus">
-				<div id="disqus_thread"></div>
-				<script type="text/javascript">
-			   		 /* * * CONFIGURATION VARIABLES * * */
-			    	var disqus_shortname = 'fishartgame';
-			    
-			   		 /* * * DON'T EDIT BELOW THIS LINE * * */
-			    	(function() {
-			        	var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-			        	dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-			        	(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-			    	})();
-				</script>
-				<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
-			</div>
 			
 
 			
