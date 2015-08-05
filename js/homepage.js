@@ -47,7 +47,7 @@ $(function(){
 
 	$(document).click(function(event) {
 		$('div.ContentBox').fadeOut();
-		$('div.ContentBoxFeedback').fadeOut();
+		//$('div.ContentBoxFeedback').fadeOut();
 	});
 
 	$('div.ContentBoxFeedback').click(function(event) {
@@ -77,7 +77,7 @@ $(function(){
 		$('.ContentBox').not('#'+index+'Content').css('display','none');
 		$('.ContentBoxFeedback').not('#'+index+'Content').css('display','none');
 	}else{
-		$('#'+index+'Content').fadeOut(1000);
+		$('#'+index+'Content').fadeOut(500);
 	}
 });
 }
