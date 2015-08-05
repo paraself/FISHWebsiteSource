@@ -211,8 +211,12 @@ p {
 	left: 203px;
 	width: 400px;
 	top: 5px;
-	bottom: 5px;
-	background-color: rgba(255, 255, 255, 0.3);
+	bottom: 7px;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+#disqus_thread {
+	margin: 5px 5px 5px 5px;
 }
 
 
