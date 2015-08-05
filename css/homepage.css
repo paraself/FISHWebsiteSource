@@ -245,6 +245,7 @@ p {
 
 #disqus_thread {
 	margin: 10px 10px 10px 10px;
+	overflow: auto;
 }
 
 
