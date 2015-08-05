@@ -241,11 +241,12 @@ p {
 	top: 0px;
 	bottom: 7px;
 	background-color: rgba(10, 10, 10, 0.8);
+	overflow: auto;
 }
 
 #disqus_thread {
 	margin: 10px 10px 10px 10px;
-	overflow: auto;
+
 }
 
 
