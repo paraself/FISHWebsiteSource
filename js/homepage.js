@@ -81,6 +81,8 @@ $(function(){
 });
 }
 
+var disqus_config = function () { this.language = "ru"; };
+
 
 
 
